@@ -7,6 +7,10 @@ public class MyFirstApp {
 
         for (int i = 0; i < 10; i++) {
             System.out.println("i is now " + i);
+
+            if (i == 9) {
+                System.out.println("i: 9");
+            }
         }
     }
 }
